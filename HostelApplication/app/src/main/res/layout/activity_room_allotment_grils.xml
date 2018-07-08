@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amey.hostelapplication.RoomAllotmentGrils"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/flid"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="FLOOR ALLOTMENT"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="458dp">
+
+        <Button
+            android:id="@+id/second_floor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape"
+            android:onClick="onClickSecondFloor"
+            android:text="II
+Floor"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.206"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.157"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/third_floor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@+id/second_floor"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/forth_floor"
+            android:background="@drawable/shape"
+            android:onClick="onClickThirdFloor"
+            android:text="III
+Floor"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.157"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/fourth_floor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/second_floor"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape"
+            android:onClick="onClickFourthFloor"
+            android:text="IV
+Floor"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.206"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.555"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/fifth_floor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/third_floor"
+            android:layout_alignTop="@+id/fourth_floor"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape"
+            android:onClick="onClickFifthFloor"
+            android:text="V
+Floor"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.555"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</LinearLayout>

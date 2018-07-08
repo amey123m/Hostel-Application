@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amey.hostelapplication.names"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/textforname"
+            android:text="NAMES FOR ROOMS"
+            android:textColor="#504d4d"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_gravity="center"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/L1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/names"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/f1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="I Floor" />
+
+            <Button
+                android:id="@+id/f2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="II Floor" />
+
+            <Button
+                android:id="@+id/f3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="III Floor" />
+
+            <Button
+                android:id="@+id/f4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="IV Floor" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/L2"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/L1">
+
+            <Button
+                android:id="@+id/f5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="V Floor" />
+
+            <Button
+                android:id="@+id/f6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="VI Floor" />
+
+            <Button
+                android:id="@+id/f7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="VII Floor" />
+
+            <Button
+                android:id="@+id/f8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="VIII Floor" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/L3"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/L2">
+
+            <Button
+                android:id="@+id/f9"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="IX Floor" />
+
+            <Button
+                android:id="@+id/f10"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="X Floor" />
+
+            <Button
+                android:id="@+id/f11"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="XI Floor" />
+
+            <Button
+                android:id="@+id/f12"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="XII Floor" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

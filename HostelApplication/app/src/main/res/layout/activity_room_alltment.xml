@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amey.hostelapplication.RoomAllotmentBoys">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/floor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickS"
+            android:text="2ND Floor" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor3"
+            android:onClick="onClickT"
+            android:text="3RD FLOOR"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor4"
+            android:onClick="onClickF"
+            android:text="4TH FLOOR"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor5"
+            android:onClick="onClickFi"
+            android:text="5TH FLOOR"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor6"
+            android:onClick="onClickSi"
+            android:text="6TH FLOOR"/>
+
+        <Button
+            android:id="@+id/floor7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickSe"
+            android:text="7TH FLOOR" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor8"
+            android:onClick="onClickE"
+            android:text="8TH FLOOR"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor9"
+            android:onClick="onClickN"
+            android:text="9TH FLOOR"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor10"
+            android:onClick="onClickTe"
+            android:text="10TH FLOOR"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/floor11"
+            android:onClick="onClickEl"
+            android:text="11TH FLOOR"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Allot"
+        android:layout_marginTop="12dp"
+        android:id="@+id/add"
+        android:text="Add Room Allotment"
+        android:textStyle="italic"/>
+
+    <ListView
+        android:id="@+id/Allot"
+        android:layout_width="310dp"
+        android:layout_height="585dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

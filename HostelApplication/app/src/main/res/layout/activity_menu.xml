@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amey.hostelapplication.menu">
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/hos"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:id="@+id/bhostel"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton"
+        android:gravity="center"
+        android:text="HOSTEL"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/compl"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_above="@+id/complaints"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:src="@drawable/com" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/complaints"
+        android:text="COMPLAINTS"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp" />
+
+</RelativeLayout>

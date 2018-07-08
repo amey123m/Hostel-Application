@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amey.hostelapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RoomAllotmentBoys" />
+        <activity android:name=".hostel" />
+        <activity android:name=".menu" />
+        <activity android:name=".complaint" />
+        <activity android:name=".RegisterComplaint" />
+        <activity android:name=".RoomAllotmentGrils" />
+        <activity android:name=".names" />
+        <activity android:name=".editname" />
+        <activity android:name=".Girls_Second_Floor" />
+        <activity android:name=".Girls_Third_Floor" />
+        <activity android:name=".Girls_Fourth_Floor" />
+        <activity android:name=".Girls_Fifth_Floor" />
+        <activity android:name=".editname_TF" />
+        <activity android:name=".names_TF" />
+        <activity android:name=".names_FF" />
+        <activity android:name=".names_FiF" />
+        <activity android:name=".names_boys" />
+        <activity android:name=".Boys_Hostel_Selection" />
+        <activity android:name=".SecondF_Names" />
+        <activity android:name=".ThirdF_Names" />
+        <activity android:name=".FourthF_Names" />
+        <activity android:name=".FifthF_Names" />
+        <activity android:name=".SixthF_Names" />
+        <activity android:name=".SeventhF_Names" />
+        <activity android:name=".EighthF_Names" />
+        <activity android:name=".NinthF_Names" />
+        <activity android:name=".TenthF_Names" />
+        <activity android:name=".EleventhF_Names"></activity>
+    </application>
+
+</manifest>

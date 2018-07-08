@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#d71818">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#d71818">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/complaint_name"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/notdone"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/ic_action_notdone"
+                    android:layout_height="50dp" />
+                <Button
+                    android:id="@+id/done"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/ic_action_done"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

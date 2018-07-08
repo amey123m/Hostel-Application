@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amey.hostelapplication.names"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/textforname"
+            android:text="NAMES FOR ROOMS"
+            android:textColor="#504d4d"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_gravity="center"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/addnames"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onClickAddName"
+            android:text="Add Name For Rooms" />
+
+        <Button
+            android:id="@+id/roomallot"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/addnames"
+            android:layout_marginTop="50dp"
+            android:onClick="onClickRoomAllot"
+            android:text="Alloted Rooms" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

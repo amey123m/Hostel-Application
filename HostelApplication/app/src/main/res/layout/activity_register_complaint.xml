@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amey.hostelapplication.RegisterComplaint">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/relativeLayout2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Register Complaints"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="#7e7d7d"
+            android:textStyle="italic"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_alignParentStart="true"
+        android:padding="20dp"
+        android:layout_below="@+id/relativeLayout2">
+
+
+
+        <EditText
+            android:id="@+id/comp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="84dp"
+            android:gravity="center"
+            android:hint="Hostel Room No. Complaint" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="110dp"
+            android:onClick="onClickButtonExample"
+            android:text="Save"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/save"
+            android:layout_marginBottom="27dp"
+            android:id="@+id/note"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Example :- Boys Hostel 310 LAN not working
+ Please Fill According To The Example"/>
+    </RelativeLayout>
+
+</RelativeLayout>

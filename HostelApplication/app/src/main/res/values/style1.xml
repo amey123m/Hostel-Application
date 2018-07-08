@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#faf4f4</item>
+        <item name="colorPrimaryDark">#faf4f4</item>
+        <item name="colorAccent">#faf4f4</item>
+    </style>
+</resources>
